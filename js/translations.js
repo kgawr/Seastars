@@ -5,7 +5,7 @@
    Supported languages: en (English), es (Español), ca (Català)
    ========================================================================== */
 
-const TRANSLATIONS = {
+window.TRANSLATIONS = {
 
   en: {
     "announce.text": "Enrolment open for 2026/27 · Classes in L'Ampolla and online",
@@ -23,7 +23,7 @@ const TRANSLATIONS = {
     "nav.cta": "Contact",
 
     "hero.eyebrow": "L'Ampolla · Costa Daurada, Spain",
-    "hero.title": "Where language learning meets the sea",
+    "hero.title": "Where learning feels like a conversation",
     "hero.subtitle": "English, Spanish and cello lessons on the Costa Daurada — taught with warmth, play and music, in person in L'Ampolla or live online.",
     "hero.cta1": "See our programmes",
     "hero.cta2": "Talk to Mirela",
@@ -42,6 +42,11 @@ const TRANSLATIONS = {
     "offer.eyebrow": "Programmes",
     "offer.title": "Learn your way",
     "offer.subtitle": "From toddlers to company teams, every course is built around real communication.",
+
+    "offer.italy.title": "English Immersion Daycamp — Italy",
+    "offer.italy.cardText": "Daycamp-style English immersion with activity-led lessons, cultural outings and games — ideal for children and teens looking for an intensive, fun week.",
+
+    "nav.signup": "Sign up",
 
     "kids.title": "Little Explorers — from age 2",
     "kids.cardText": "Communicative Approach, Total Physical Response, play, theatre, songs and music for our youngest learners.",
@@ -123,7 +128,7 @@ const TRANSLATIONS = {
     "nav.cta": "Contacto",
 
     "hero.eyebrow": "L'Ampolla · Costa Daurada, España",
-    "hero.title": "Donde aprender un idioma se encuentra con el mar",
+    "hero.title": "Donde el aprendizaje se siente como una conversación",
     "hero.subtitle": "Inglés, español y clases de violonchelo en la Costa Daurada — con cercanía, juego y música, presencial en L'Ampolla u online en directo.",
     "hero.cta1": "Ver programas",
     "hero.cta2": "Habla con Mirela",
@@ -142,6 +147,11 @@ const TRANSLATIONS = {
     "offer.eyebrow": "Programas",
     "offer.title": "Aprende a tu manera",
     "offer.subtitle": "Desde los más peques hasta los equipos de empresa, cada curso está pensado para la comunicación real.",
+
+    "offer.italy.title": "Campamento de día de inmersión en inglés — Italia",
+    "offer.italy.cardText": "Campamento de día de inmersión en inglés con clases dinámicas, actividades culturales y juegos — ideal para niños y adolescentes que buscan una semana intensiva y divertida.",
+
+    "nav.signup": "Inscribirse",
 
     "kids.title": "Peques exploradores — desde los 2 años",
     "kids.cardText": "Enfoque Comunicativo, Total Physical Response, juego, teatro, canciones y música para los más pequeños.",
@@ -223,7 +233,7 @@ const TRANSLATIONS = {
     "nav.cta": "Contacte",
 
     "hero.eyebrow": "L'Ampolla · Costa Daurada",
-    "hero.title": "On aprendre un idioma es troba amb el mar",
+    "hero.title": "On l'aprenentatge se sent com una conversa",
     "hero.subtitle": "Anglès, espanyol i classes de violoncel a la Costa Daurada — amb proximitat, joc i música, presencial a l'Ampolla o online en directe.",
     "hero.cta1": "Veure programes",
     "hero.cta2": "Parla amb Mirela",
@@ -242,6 +252,11 @@ const TRANSLATIONS = {
     "offer.eyebrow": "Programes",
     "offer.title": "Aprèn a la teva manera",
     "offer.subtitle": "Des dels més menuts fins als equips d'empresa, cada curs està pensat per a la comunicació real.",
+
+    "offer.italy.title": "Camp d'un dia d'immersió en anglès — Itàlia",
+    "offer.italy.cardText": "Camp d'un dia d'immersió en anglès amb classes dinàmiques, sortides culturals i jocs — ideal per a nens i adolescents que busquen una setmana intensiva i divertida.",
+
+    "nav.signup": "Inscriu-te",
 
     "kids.title": "Menuts exploradors — des dels 2 anys",
     "kids.cardText": "Enfocament comunicatiu, Total Physical Response, joc, teatre, cançons i música per als més petits.",
