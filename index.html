@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seastars Education Centre — L'Ampolla</title>
+<meta name="description" content="Seastars Education Centre — inglés, español y clases de violonchelo en L'Ampolla, Costa Daurada. English, Spanish and cello lessons by the sea.">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%230B3D42'/%3E%3Cpath d='M50 18 L58 40 L82 40 L62 54 L70 78 L50 63 L30 78 L38 54 L18 40 L42 40 Z' fill='%23F5A93B'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ANNOUNCEMENT BAR -->
+<div class="announce">
+  <p data-i18n="announce.text">Matrícula abierta 2026/27 · Clases en L'Ampolla y online</p>
+</div>
+
+<!-- HEADER -->
+<header class="site-header" id="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo" aria-label="Seastars Education Centre — home">
+      <svg class="logo-mark" viewBox="0 0 100 100" width="36" height="36" aria-hidden="true">
+        <path d="M50 8 L59 36 L88 36 L64 54 L73 82 L50 65 L27 82 L36 54 L12 36 L41 36 Z"/>
+      </svg>
+      <span class="logo-word">Seastars<em>Education&nbsp;Centre</em></span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#about" data-i18n="nav.about">About Us</a></li>
+        <li class="has-dropdown">
+          <a href="#offer" data-i18n="nav.offer">Programmes</a>
+          <ul class="dropdown">
+            <li><a href="#kids" data-i18n="nav.kids">Little Explorers (2+)</a></li>
+            <li><a href="#general" data-i18n="nav.general">English &amp; Spanish Courses</a></li>
+            <li><a href="#cello" data-i18n="nav.cello">Cello Lessons</a></li>
+            <li><a href="#business" data-i18n="nav.business">English for Companies</a></li>
+            <li><a href="#events" data-i18n="nav.events">Live Events</a></li>
+          </ul>
+        </li>
+        <li><a href="#location" data-i18n="nav.location">L'Ampolla</a></li>
+        <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+        <button type="button" class="lang-btn" data-lang="es">ES</button>
+        <button type="button" class="lang-btn" data-lang="ca">CA</button>
+      </div>
+      <a class="btn btn-small btn-primary" href="#contact" data-i18n="nav.cta">Contact</a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-sea" aria-hidden="true">
+      <svg class="hero-wave hero-wave-1" viewBox="0 0 1440 220" preserveAspectRatio="none"><path d="M0,80 C 240,160 480,0 720,60 C 960,120 1200,20 1440,90 L1440,220 L0,220 Z"></path></svg>
+      <svg class="hero-wave hero-wave-2" viewBox="0 0 1440 220" preserveAspectRatio="none"><path d="M0,120 C 260,40 500,180 760,110 C 1000,50 1220,140 1440,70 L1440,220 L0,220 Z"></path></svg>
+      <svg class="hero-wave hero-wave-3" viewBox="0 0 1440 220" preserveAspectRatio="none"><path d="M0,150 C 300,90 560,190 800,130 C 1040,70 1260,160 1440,120 L1440,220 L0,220 Z"></path></svg>
+    </div>
+
+    <div class="wrap hero-inner">
+      <p class="eyebrow eyebrow-light" data-i18n="hero.eyebrow">L'Ampolla · Costa Daurada, Spain</p>
+      <h1 data-i18n="hero.title">Where language learning meets the sea</h1>
+      <p class="hero-sub" data-i18n="hero.subtitle">English, Spanish and cello lessons on the Costa Daurada — taught with warmth, play and music, in person in L'Ampolla or live online.</p>
+      <div class="hero-cta">
+        <a href="#offer" class="btn btn-primary" data-i18n="hero.cta1">See our programmes</a>
+        <a href="#contact" class="btn btn-ghost" data-i18n="hero.cta2">Talk to Mirela</a>
+      </div>
+    </div>
+
+    <div class="soundwave" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="wrap about-grid">
+      <div class="about-visual" aria-hidden="true">
+        <div class="about-photo">
+          <svg viewBox="0 0 400 480" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <linearGradient id="seaGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#5FC7C9"/>
+                <stop offset="1" stop-color="#0B3D42"/>
+              </linearGradient>
+            </defs>
+            <rect width="400" height="480" fill="url(#seaGrad)"/>
+            <circle cx="320" cy="70" r="34" fill="#F5A93B" opacity="0.9"/>
+            <path d="M0 300 C 80 260 160 330 240 300 C 300 280 350 320 400 300 L400 480 L0 480 Z" fill="#0B3D42" opacity="0.55"/>
+            <path d="M0 360 C 90 330 170 390 260 355 C 320 335 360 370 400 355 L400 480 L0 480 Z" fill="#083033" opacity="0.7"/>
+            <g transform="translate(150,150)" fill="#FAF3E7" opacity="0.9">
+              <path d="M50 8 L59 36 L88 36 L64 54 L73 82 L50 65 L27 82 L36 54 L12 36 L41 36 Z" transform="scale(0.8)"/>
+            </g>
+          </svg>
+        </div>
+        <div class="about-badge">
+          <span class="badge-coords" data-i18n="location.coords">40.8° N · 0.7° E</span>
+        </div>
+      </div>
+
+      <div class="about-copy">
+        <p class="eyebrow" data-i18n="about.eyebrow">About us</p>
+        <h2 data-i18n="about.title">Hello, Hola, Hola!</h2>
+        <p data-i18n="about.text1">Seastars Education Centre is the Spanish home of Sistars Educational Centre, a family school of languages founded in Poland in 2017 by three sisters — Daria, Marta and Mirela — all English and Spanish philologists with a lifelong love of languages, travel and music.</p>
+        <p data-i18n="about.text2">In L'Ampolla, on the Costa Daurada, that same spirit continues under Mirela, who moved from the classroom to the seafront to build a small, warm school where children and adults learn by speaking, playing, singing and — quite literally — making music.</p>
+        <p data-i18n="about.text3">We believe learning should feel like a conversation, not a test. Whether you're two years old discovering your first English words through a song, or an adult preparing your team for international clients, you'll find the same calm, encouraging, practical approach here.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="section team" id="team">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="team.eyebrow">Meet the team</p>
+      <div class="team-card">
+        <div class="team-avatar" aria-hidden="true">
+          <svg viewBox="0 0 120 120" width="100%" height="100%">
+            <circle cx="60" cy="60" r="60" fill="#146C74"/>
+            <circle cx="60" cy="48" r="22" fill="#FAF3E7"/>
+            <path d="M20 108 C 20 78 40 68 60 68 C 80 68 100 78 100 108 Z" fill="#FAF3E7"/>
+          </svg>
+        </div>
+        <div class="team-info">
+          <h3>Mirela Gromowska</h3>
+          <p class="team-role" data-i18n="team.role">Founder, Seastars Education Centre · English &amp; Spanish philologist · Cellist</p>
+          <p data-i18n="team.bio">Mirela is one of the three sisters behind Sistars Educational Centre. Between classes you'll usually find her on the beach in L'Ampolla — or with a cello case over her shoulder, on her way to a lesson or a live performance.</p>
+          <a class="team-phone" href="tel:+48668234331">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.7 21 3 13.3 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z" stroke="currentColor" stroke-width="1.6"/></svg>
+            <span data-i18n="team.phoneLabel">Call / WhatsApp</span> +48 668 234 331
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFER -->
+  <section class="section offer" id="offer">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="offer.eyebrow">Programmes</p>
+      <h2 data-i18n="offer.title">Learn your way</h2>
+      <p class="section-sub" data-i18n="offer.subtitle">From toddlers to company teams, every course is built around real communication.</p>
+
+      <div class="offer-grid">
+        <a class="offer-card" href="#kids">
+          <span class="offer-icon" aria-hidden="true">🐚</span>
+          <h3 data-i18n="kids.title">Little Explorers — from age 2</h3>
+          <p data-i18n="kids.cardText">Communicative Approach, Total Physical Response, play, theatre, songs and music for our youngest learners.</p>
+        </a>
+        <a class="offer-card" href="#general">
+          <span class="offer-icon" aria-hidden="true">🌊</span>
+          <h3 data-i18n="general.title">English &amp; Spanish Courses</h3>
+          <p data-i18n="general.cardText">Group and individual classes for children, teens and adults, in L'Ampolla or online.</p>
+        </a>
+        <a class="offer-card" href="#cello">
+          <span class="offer-icon" aria-hidden="true">🎻</span>
+          <h3 data-i18n="cello.title">Individual Cello Lessons</h3>
+          <p data-i18n="cello.cardText">One-to-one lessons in person in L'Ampolla or live via Zoom, for all ages and levels.</p>
+        </a>
+        <a class="offer-card" href="#business">
+          <span class="offer-icon" aria-hidden="true">💼</span>
+          <h3 data-i18n="business.title">English for Companies</h3>
+          <p data-i18n="business.cardTextShort">Tailored Business English, subsidised through FUNDAE.</p>
+        </a>
+        <a class="offer-card" href="#events">
+          <span class="offer-icon" aria-hidden="true">✨</span>
+          <h3 data-i18n="events.title">Live Cello Events</h3>
+          <p data-i18n="events.cardText">Hire Mirela as a live cellist for weddings and events on the Costa Daurada.</p>
+        </a>
+      </div>
+      <div class="wrap" style="margin-top:28px">
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSevia2BLMErSLczz5gd5hfnEyqFBRcEj_v--RxERh5KGYDatg/viewform" target="_blank" rel="noopener">Sign up for a course</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LANGUAGE CAMPS -->
+  <section class="section camps" id="camps">
+    <div class="wrap">
+      <p class="eyebrow">Language Camps</p>
+      <h2>Summer Language Camps — UK · Poland · Spain</h2>
+      <p class="section-sub">Residential and day camps combining immersive language learning with outdoor activities, music and cultural excursions. Suitable for children and teens; small groups and experienced bilingual staff.</p>
+
+      <div class="offer-grid" style="margin-top:30px">
+        <div class="offer-card">
+          <span class="offer-icon" aria-hidden="true">🇬🇧</span>
+          <h3>United Kingdom</h3>
+          <p>English immersion camps near the coast and countryside — activity-led learning, sport, theatre and day trips. Residential and day options for ages 8–17.</p>
+        </div>
+
+        <div class="offer-card">
+          <span class="offer-icon" aria-hidden="true">🇵🇱</span>
+          <h3>Poland</h3>
+          <p>Family-run camps in Poland (Sistars network) focusing on both English and Polish culture, music workshops and local excursions. Great for mixed-age groups.</p>
+        </div>
+
+        <div class="offer-card">
+          <span class="offer-icon" aria-hidden="true">🇪🇸</span>
+          <h3>Spain — Costa Daurada</h3>
+          <p>Seastars' own camps in L'Ampolla: seaside language weeks, water activities, music and local culture. Perfect for learners who love the sea.</p>
+        </div>
+      </div>
+
+      <div class="hero-cta" style="margin-top:22px">
+        <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSevia2BLMErSLczz5gd5hfnEyqFBRcEj_v--RxERh5KGYDatg/viewform" target="_blank" rel="noopener">Register for a camp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- KIDS DETAIL -->
+  <section class="section detail detail-alt" id="kids">
+    <div class="wrap detail-grid">
+      <div class="detail-copy">
+        <p class="eyebrow" data-i18n="kids.eyebrow">2 – 6 years old</p>
+        <h2 data-i18n="kids.title">Little Explorers — from age 2</h2>
+        <p data-i18n="kids.text">Our youngest students learn English and Spanish through the Communicative Approach and Total Physical Response — moving, pointing, acting things out — combined with play, games, theatre, singing and music. No worksheets, no pressure: just language absorbed the way a first language is.</p>
+        <ul class="tag-list">
+          <li data-i18n="kids.tag1">Communicative Approach</li>
+          <li data-i18n="kids.tag2">Total Physical Response</li>
+          <li data-i18n="kids.tag3">Play &amp; games</li>
+          <li data-i18n="kids.tag4">Theatre</li>
+          <li data-i18n="kids.tag5">Singing &amp; music</li>
+        </ul>
+      </div>
+      <div class="detail-visual" aria-hidden="true">
+        <div class="blob blob-gold"></div>
+        <span class="detail-emoji">🎈🖌️🎶</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- GENERAL COURSES DETAIL -->
+  <section class="section detail" id="general">
+    <div class="wrap detail-grid detail-grid-rev">
+      <div class="detail-visual" aria-hidden="true">
+        <div class="blob blob-teal"></div>
+        <span class="detail-emoji">💬🗣️📚</span>
+      </div>
+      <div class="detail-copy">
+        <p class="eyebrow" data-i18n="general.eyebrow">Children · Teens · Adults</p>
+        <h2 data-i18n="general.title">English &amp; Spanish Courses</h2>
+        <p data-i18n="general.text">Group and individual classes for children, teenagers and adults, focused on real conversation and confident everyday communication — in L'Ampolla or online.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CELLO DETAIL -->
+  <section class="section detail detail-alt" id="cello">
+    <div class="wrap detail-grid">
+      <div class="detail-copy">
+        <p class="eyebrow" data-i18n="cello.eyebrow">In person · Live on Zoom</p>
+        <h2 data-i18n="cello.title">Individual Cello Lessons</h2>
+        <p data-i18n="cello.text">One-to-one cello lessons for all ages and levels, taught by Mirela in person in L'Ampolla or live via Zoom. Personalised repertoire, patient technique work, and the same warm, encouraging approach as our language classes.</p>
+        <a class="btn btn-primary btn-small" href="#contact" data-i18n="cello.cta">Ask about lessons</a>
+      </div>
+      <div class="detail-visual" aria-hidden="true">
+        <div class="blob blob-coral"></div>
+        <span class="detail-emoji">🎻🎶</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUSINESS DETAIL -->
+  <section class="section detail business-detail" id="business">
+    <div class="wrap detail-grid detail-grid-rev">
+      <div class="detail-visual" aria-hidden="true">
+        <div class="blob blob-teal"></div>
+        <span class="detail-emoji">💼🌐📈</span>
+      </div>
+      <div class="detail-copy">
+        <p class="eyebrow" data-i18n="business.eyebrow">Companies</p>
+        <h2 data-i18n="business.title">English for Companies</h2>
+        <p class="business-subtitle" data-i18n="business.subtitle">FUNDAE-subsidised training</p>
+        <p data-i18n="business.text">We offer personalised English training for companies, with the possibility of subsidised funding through FUNDAE, depending on each company's available credit. Classes can take place in person in L'Ampolla or online via Zoom. We design specific modules and content for each company, tailored to its sector, level and professional needs.</p>
+        <ul class="tag-list">
+          <li data-i18n="business.tag1">Business English</li>
+          <li data-i18n="business.tag2">Customer Service</li>
+          <li data-i18n="business.tag3">Tourism</li>
+          <li data-i18n="business.tag4">Sales</li>
+          <li data-i18n="business.tag5">Meetings</li>
+          <li data-i18n="business.tag6">Presentations</li>
+          <li data-i18n="business.tag7">Professional Communication</li>
+        </ul>
+        <p class="business-footnote" data-i18n="business.footnote">Flexible, practical training, 100% adapted to your team's needs.</p>
+        <a class="btn btn-primary btn-small" href="#contact" data-i18n="business.cta">Request a company proposal</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTS DETAIL -->
+  <section class="section detail detail-alt" id="events">
+    <div class="wrap detail-grid">
+      <div class="detail-copy">
+        <p class="eyebrow" data-i18n="events.eyebrow">Weddings · Ceremonies · Corporate events</p>
+        <h2 data-i18n="events.title">Live Cello Events</h2>
+        <p data-i18n="events.text">Mirela is available to hire as a live cellist for weddings, ceremonies, corporate events and private celebrations across the Costa Daurada — solo cello, tailored to your occasion.</p>
+        <a class="btn btn-primary btn-small" href="#contact" data-i18n="events.cta">Book Mirela for your event</a>
+      </div>
+      <div class="detail-visual" aria-hidden="true">
+        <div class="blob blob-gold"></div>
+        <span class="detail-emoji">🎻💍🎉</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION -->
+  <section class="section location" id="location">
+    <div class="wrap location-grid">
+      <div class="location-copy">
+        <p class="eyebrow eyebrow-light" data-i18n="location.eyebrow">Find us</p>
+        <h2 data-i18n="location.title">L'Ampolla, Costa Daurada</h2>
+        <p data-i18n="location.text">Our classroom sits close to the sea in L'Ampolla, in the Ebro Delta region of Tarragona — a small fishing town with big skies, warm light and plenty of space to learn outside the four walls of a classroom.</p>
+        <span class="coords" data-i18n="location.coords">40.8° N · 0.7° E</span>
+        <div class="hero-cta">
+          <a class="btn btn-ghost btn-light" href="https://share.google/q6pRqTPEr56QYsJ8X" target="_blank" rel="noopener" data-i18n="location.mapLabel">Find us on Google Maps</a>
+        </div>
+      </div>
+      <div class="location-visual" aria-hidden="true">
+        <svg class="wave-loop" viewBox="0 0 600 400" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+          <circle cx="300" cy="200" r="150" fill="none" stroke="#F5A93B" stroke-width="2" stroke-dasharray="4 8"/>
+          <circle cx="300" cy="200" r="4" fill="#F5A93B"/>
+          <path d="M120 260 C 200 220 260 300 340 250 C 400 215 460 260 500 230" stroke="#4FBDBE" stroke-width="3" fill="none" opacity="0.7"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section gallery" id="gallery">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="gallery.eyebrow">Gallery</p>
+      <h2 data-i18n="gallery.title">A peek inside</h2>
+      <p class="section-sub" data-i18n="gallery.text">Photos from our classes, events and the beach — coming soon. Follow us on Instagram for the latest.</p>
+      <div class="gallery-grid" aria-hidden="true">
+        <div class="gallery-tile gt-1"></div>
+        <div class="gallery-tile gt-2"></div>
+        <div class="gallery-tile gt-3"></div>
+        <div class="gallery-tile gt-4"></div>
+        <div class="gallery-tile gt-5"></div>
+        <div class="gallery-tile gt-6"></div>
+      </div>
+      <a class="btn btn-ghost" href="https://www.instagram.com/seastars_school" target="_blank" rel="noopener" data-i18n="gallery.igLabel">Follow @seastars_school</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="eyebrow eyebrow-light" data-i18n="contact.eyebrow">Get in touch</p>
+        <h2 data-i18n="contact.title">Let's talk</h2>
+        <p data-i18n="contact.text">Questions about a course, a cello lesson or a company training programme? Write, call or send a WhatsApp message to Mirela.</p>
+      </div>
+
+      <div class="contact-card">
+        <a class="contact-row" href="tel:+48668234331">
+          <span class="contact-icon" aria-hidden="true">📞</span>
+          <span>
+            <strong data-i18n="contact.phoneLabel">Call / WhatsApp</strong>
+            <span>+48 668 234 331</span>
+          </span>
+        </a>
+        <a class="contact-row" href="https://wa.me/48668234331" target="_blank" rel="noopener">
+          <span class="contact-icon" aria-hidden="true">💬</span>
+          <span>
+            <strong>WhatsApp</strong>
+            <span data-i18n="contact.waLabel">Send a message</span>
+          </span>
+        </a>
+        <a class="contact-row" href="https://www.instagram.com/seastars_school" target="_blank" rel="noopener">
+          <span class="contact-icon" aria-hidden="true">📷</span>
+          <span>
+            <strong>Instagram</strong>
+            <span>@seastars_school</span>
+          </span>
+        </a>
+        <a class="contact-row" href="https://share.google/q6pRqTPEr56QYsJ8X" target="_blank" rel="noopener">
+          <span class="contact-icon" aria-hidden="true">📍</span>
+          <span>
+            <strong data-i18n="contact.mapLabel">Find us on Google Maps</strong>
+            <span data-i18n="location.title">L'Ampolla, Costa Daurada</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="logo-word">Seastars<em>Education&nbsp;Centre</em></span>
+      <p data-i18n="footer.tagline">English, Spanish and cello lessons by the sea in L'Ampolla.</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/seastars_school" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+        <a href="https://wa.me/48668234331" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+        <a href="https://share.google/q6pRqTPEr56QYsJ8X" target="_blank" rel="noopener" aria-label="Google Maps">Maps</a>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <h4 data-i18n="nav.offer">Programmes</h4>
+      <a href="#kids" data-i18n="nav.kids">Little Explorers (2+)</a>
+      <a href="#general" data-i18n="nav.general">English &amp; Spanish Courses</a>
+      <a href="#cello" data-i18n="nav.cello">Cello Lessons</a>
+      <a href="#business" data-i18n="nav.business">English for Companies</a>
+      <a href="#events" data-i18n="nav.events">Live Events</a>
+    </div>
+
+    <div class="footer-links">
+      <h4 data-i18n="contact.eyebrow">Get in touch</h4>
+      <a href="tel:+48668234331">+48 668 234 331</a>
+      <a href="https://wa.me/48668234331" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://www.instagram.com/seastars_school" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://share.google/q6pRqTPEr56QYsJ8X" target="_blank" rel="noopener" data-i18n="contact.mapLabel">Find us on Google Maps</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p data-i18n="footer.rights">© 2026 Seastars Education Centre</p>
+  </div>
+</footer>
+
+<script src="js/translations.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
