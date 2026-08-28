@@ -93,6 +93,20 @@ h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); }
 .btn-ghost.btn-light:hover { background: var(--sand); color: var(--ink); }
 .btn-small { padding: 11px 20px; font-size: 0.88rem; }
 
+/* Specific hero ghost button: make it solid by default and lighter on hover */
+.btn-hero {
+  background: var(--ink);
+  color: var(--sand);
+  border-color: transparent;
+  box-shadow: 0 12px 24px -10px rgba(11,61,66,0.55);
+}
+.btn-hero:hover {
+  background: rgba(250,243,231,0.12);
+  color: var(--gold);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -12px rgba(11,61,66,0.35);
+}
+
 /* ---------- announcement bar ---------- */
 .announce {
   background: var(--ink); color: var(--sand);
@@ -152,7 +166,11 @@ h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); }
 /* ---------- hero ---------- */
 .hero {
   position: relative; overflow: hidden;
-  background: linear-gradient(180deg, #0B3D42 0%, #146C74 55%, #1E8C8F 100%);
+  /* image with a dark gradient overlay for contrast */
+  background-image: linear-gradient(rgba(11,61,66,0.62), rgba(11,61,66,0.42)), url("../img/sistars.jpg");
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
   padding: 100px 0 170px;
   color: var(--sand);
 }
